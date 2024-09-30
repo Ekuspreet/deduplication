@@ -1,0 +1,31 @@
+{
+  "name": "deduplication",
+  "version": "1.0.0",
+  "description": "Deduplication In Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js",
+    "watch": "conc \"tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch\"  \"nodemon index.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "path": "^0.12.7",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.14",
+    "concurrently": "^8.2.2",
+    "daisyui": "^4.12.10",
+    "nodemon": "^3.1.4",
+    "tailwindcss": "^3.4.10"
+  }
+}
